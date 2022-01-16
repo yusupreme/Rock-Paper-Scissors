@@ -1,0 +1,25 @@
+computer selects r p or s
+user inputs r p or s 
+while computer selects r
+    if user selects p
+        display "you win, paper beats rock"
+    if user selects s
+        display "you lose, rock beats scissors"
+    if user selects r
+        display "its a tie! try again"
+    
+while computer selects p
+    if user selects p
+        display "its a tie! try again" 
+    if user selects s
+        display "you win, scissors beat rock"
+    if user selects r
+        display "you lose, paper beats rock"
+
+   while computer selects s
+    if user selects p
+        display "you lose, scissors beats paper" 
+    if user selects s
+        display "its a tie! try again" 
+    if user selects r
+        display "you win, rock beats scissors"
